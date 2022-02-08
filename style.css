@@ -3,8 +3,8 @@
 
 body {
     font-family: 'Orbitron', sans-serif;
-    background-image: url(starTrek.jpg);
-    background-repeat: no-repeat;
+    background-image: url("starTrek.jpg");
+    background-position: center;
     background-size: cover;
     color: rgba(255,255,255, 0.6);
 }
@@ -18,7 +18,7 @@ h1 {
     letter-spacing: 10px;
     text-align: center;
     text-transform: uppercase;
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 #series-movies {
@@ -27,11 +27,13 @@ h1 {
 
 h2 {
     font-size: 2em;
+    /* font-size: 2.5rem; */
 }
 
 li {
     line-height: 2;
     font-size: 1rem;
+    /* font-size: 0.8em; */
 }
 
 #characters {
